@@ -1,0 +1,27 @@
+{
+	"name": "tic-tac-toe",
+	"version": "1.0.0",
+	"description": "The classic Tic Tac Toe game.",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"fmt": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "Adryel Rocha",
+	"license": "ISC",
+	"packageManager": "pnpm@10.14.0",
+	"devDependencies": {
+		"@vitejs/plugin-react-swc": "^4.0.0",
+		"prettier": "^3.6.2",
+		"vite": "^7.1.1",
+		"vite-plugin-svgr": "^4.3.0"
+	},
+	"dependencies": {
+		"@tailwindcss/postcss": "^4.1.12",
+		"autoprefixer": "^10.4.21",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"tailwindcss": "^4.1.12"
+	}
+}
